@@ -1,0 +1,26 @@
+h4 {
+  text-align: center;
+  color: yellow;
+  margin-top: 100px;
+  font-size: 45px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+body {
+  background-image: url(http://vignette3.wikia.nocookie.net/matrix/images/9/9c/Matrix_Code.gif/revision/latest/scale-to-width-down/800?cb=20110306191618);
+text-align: center;}
+
+#user, #pass {
+  color: yellow;
+}
+
+.first {
+  margin: auto;
+  padding-top: 100px;
+
+}
+
+.second {
+  margin: auto;
+
+}

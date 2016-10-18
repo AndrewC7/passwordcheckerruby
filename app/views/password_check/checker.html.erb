@@ -1,0 +1,26 @@
+<!-- <p>Your number is <%= @result%> !</p>
+<p><%= @guess.to_i %></p>
+<p>You have tried <%= cookies[:count].to_i%> times</p> -->
+
+<h4> Results:<br>
+Your Username is:
+<%=@results_user %>
+<br>
+Your Password is:
+<%= @results %></h4>
+
+
+<form action="password_check" method="get">
+  <div class="first">
+  <label id="user" for="username">Username: </label>
+  <input type="text" name="UNbox" id="username" />
+</div>
+<div class="second">
+
+  <br>
+  <label id="pass" for="password">Password: </label>
+  <input type="text" name="PWbox" id="password" />
+</div>
+<br>
+<input type="submit" value="submit" />
+</form>
